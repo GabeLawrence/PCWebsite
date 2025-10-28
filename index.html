@@ -3,16 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pride Collective</title>
+    <title>PC</title>
     <link rel="stylesheet">
 </head>
 <body>
-  <nav class="navbar">
-    <a href="/home/" class="nav-logo"><img src="images/logo.png"></a>
-    <a href="/shop/" class="nav-link">Shop</a>
-    <a href="/about/" class="nav-link">About Us</a>
-    <a href="/contact/" class="nav-link">Contact Us</a>
-    <a href="/cart/" class="nav-link"><img src="images/bag.png"></a>
+  <nav class="navbar" role="navigation" aria-label="Main Navigation">
+      <div class="navbar__container">
+          <a href="/" id="navbar-logo">PC</a>
+          <ul class="navbar__menu">
+              <li class="navbar__item">
+                  <a href="/shop" class="navbar__links">Shop</a>
+              </li>
+              <li class="navbar__item">
+                  <a href="/about" class="navbar__links">About Us</a>
+              </li>
+              <li class="navbar__item">
+                  <a href="/contact" class="navbar__links">Contact Us</a>
+              </li>
+              <li class="navbar__item">
+                  <a href="/cart" class="navbar__links">#Cart!</a>
+              </li>
+              <li class="navbar__btn mobile">
+                  <a href="/signup" class="navbar__links">Sign Up</a>
+              </li>
+          </ul>
+
+          <div class="navbar.btn desktop">
+              <a href="/signup"
+          </div>
+
+          
+      </div>
+  </nav>
 </nav>
 </body>
 </html>
