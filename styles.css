@@ -47,7 +47,7 @@
 }
 
 .navbar__links:hover{
-  color: rgb(255,215,0);
+  color: rgb(255,255,0);
   transition: all 0.3s ease;
 }
 
