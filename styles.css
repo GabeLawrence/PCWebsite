@@ -75,10 +75,14 @@
   align-items: center;
 }
 
-.button:hover {
+.button:hover{
   background: rgb(50,50,50);
   transition: all 0.3s ease;
   color: rgb(255,255,255);
+}
+
+.navbar__toggle{
+  
 }
 
 body{
