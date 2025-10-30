@@ -85,7 +85,7 @@
   display: none;
 }
 
-@media screen and (max-width: 968px){
+@media screen and (max-width: 968px) {
   .navbar__toggle {
     display: block;
     position: absolute;
