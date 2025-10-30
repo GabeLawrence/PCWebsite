@@ -102,6 +102,15 @@
   }
 }
 
+.fa-solid fa-bag-shopping{
+  color: white;
+}
+
+.fa-solid fa-bars{
+  color: white;
+}
+
+
 body{
   background-color: rgb(255,255,240);
 }
