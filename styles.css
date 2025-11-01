@@ -235,7 +235,7 @@
     .hero__container {
         grid-template-columns: 1fr;
         height: auto;
-        padding: 60px 0px;
+        padding: 120px 0px;
     }
 
     .hero__content {
@@ -257,6 +257,7 @@
 @media screen and (max-width: 480px) {
     .hero__container {
         width: 100vw;
+        padding: 60px,
     }
 
     .hero__content h1 {
@@ -268,6 +269,40 @@
         padding: 12px 36px;
         margin: 2rem 0;
     }
+}
+
+/* Rotating Logos */
+.rotating-logos {
+  overflow: hidden;
+  padding: 40px 0;
+  background: #f8f8f8;
+  white-space: nowrap;
+}
+
+.rotating-logos:hover .rotating-logos__track {
+  animation-play-state: paused;
+}
+
+.rotating-logos__track {
+  display: inline-block;
+  animation: rotate 36s linear infinite;
+}
+
+.logo-text {
+  font-size: 40px;
+  font-weight: bold;
+  color: #2b302d;
+  margin: 0 40px;
+}
+
+@keyframes rotate {
+  0% {
+    transform: translateX(0%);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
 }
 
 body{
